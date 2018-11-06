@@ -28,7 +28,7 @@ public class ProductDbSeeder implements CommandLineRunner{
     public void run(String... args) throws Exception {
         
        
-        Product product1 = new Product(new Name("admin"), new Price(399.0) ,  new Items_in_stock(100) , new Description(" "), new Image ("") )    ;
+        Product product1 = new Product(new Name("DJI Phantom 3 Standard Quadcopter Drone with 2.7K HD Video Camera"), new Price(399.0) ,  new Items_in_stock(100) , new Description("Meet the Phantom 3 Standard: the most accessible intelligent flying camera ever built. Easy to fly and engineered to let everyone take to the sky, now you have the power of flight."), new Image ("https://images-na.ssl-images-amazon.com/images/I/71Ao-WrjMDL._SL1500_.jpg") )    ;
         Product product2 = new Product(new Name("admin2"), new Price(399.0) ,  new Items_in_stock(100) , new Description(" "), new Image ("") )    ;
         
 
