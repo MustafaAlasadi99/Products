@@ -21,7 +21,7 @@ public class ProductController {
         return result;
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "https://team-7-project.herokuapp.com")
     @GetMapping("/id/{id}")
     public Product getProductById (@PathVariable String id) {
         Product result = ProductRepository.findByRepoId(id);
