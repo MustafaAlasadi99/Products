@@ -14,7 +14,7 @@ public class ProductController {
     @Autowired
     IProductRepository ProductRepository;
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "https://team-7-project.herokuapp.com")
     @GetMapping ("/GetAllProducts")
     public List<Product> getAll () {
         List<Product> result = ProductRepository.findAll();
