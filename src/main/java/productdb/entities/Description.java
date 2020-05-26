@@ -1,4 +1,4 @@
-package entities;
+package productdb.entities;
 
 public class Description {
 
