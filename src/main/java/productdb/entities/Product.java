@@ -36,9 +36,6 @@ public class Product {
     }
 
 
-
-  
-
     public Name getName (){
 
         return this.name;
@@ -69,12 +66,6 @@ public Image getImage (){
 
         return this.image;
     }
-
-
-
-
-
-
 
 
   
