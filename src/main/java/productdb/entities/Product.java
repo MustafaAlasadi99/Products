@@ -15,9 +15,10 @@ public class Product {
     private Items_in_stock items_in_stock;
     private Description description;
     private Image image;
+    private Highlights highlights;
 
 
-    public Product (Name name, Price price, Items_in_stock items_in_stock, Description description, Image image ) {
+    public Product (Name name, Price price, Items_in_stock items_in_stock, Description description, Image image, Highlights highlights ) {
         
         this.name=name;
 
@@ -28,6 +29,9 @@ public class Product {
         this.description=description;
 
         this.image=image;
+
+        this.highlights=highlights;
+
         
     }
 
@@ -65,6 +69,14 @@ public class Product {
 public Image getImage (){
 
         return this.image;
+    }
+
+
+   
+    public Highlights getHighlights(){
+
+        return this.highlights;
+
     }
 
 
