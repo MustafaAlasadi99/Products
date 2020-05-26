@@ -13,11 +13,6 @@ public class Name {
         return this.name;
     }
 
-  
-
-
-
-
-
+  //
 
 }
