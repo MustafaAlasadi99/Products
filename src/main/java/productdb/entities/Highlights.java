@@ -9,7 +9,7 @@ public class Highlights {
     }
 
  
-    public String getHighlights () {
+    public String[] getHighlights () {
         return this.highlights;
     }
 
