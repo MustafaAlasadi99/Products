@@ -41,7 +41,7 @@ public class ProductDbSeeder implements CommandLineRunner{
         //delete db data
         productRepo.deleteAll();
         //add db seeds
-        List<Product> products = Arrays.asList(product1, product2)
+        List<Product> products = Arrays.asList(product1, product2);
         //, product3, product4, product5, product6, product7, product8);
         productRepo.saveAll(products);
 
