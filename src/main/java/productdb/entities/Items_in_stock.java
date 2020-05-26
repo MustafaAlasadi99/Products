@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb.entities;
+package productdb.entities;
 
 public class Items_in_stock {
     private int items_in_stock;

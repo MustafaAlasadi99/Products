@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb.entities;
+package productdb.entities;
 
 public class Name {
     private String name;
@@ -8,11 +8,10 @@ public class Name {
     }
 
  
-
     public String getName () {
         return this.name;
     }
 
-  //
+  
 
 }

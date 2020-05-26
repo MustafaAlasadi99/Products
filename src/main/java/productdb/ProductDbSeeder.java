@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb;
+package productdb;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,12 +7,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import edu.csumb.cst438.productdb.entities.Description;
-import edu.csumb.cst438.productdb.entities.Image;
-import edu.csumb.cst438.productdb.entities.Items_in_stock;
-import edu.csumb.cst438.productdb.entities.Name;
-import edu.csumb.cst438.productdb.entities.Price;
-import edu.csumb.cst438.productdb.entities.Product;
+import productdb.entities.Description;
+import productdb.entities.Image;
+import productdb.entities.Items_in_stock;
+import productdb.entities.Name;
+import productdb.entities.Price;
+import productdb.entities.Product;
 
 
 

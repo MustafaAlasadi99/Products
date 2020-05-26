@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb.entities;
+package productdb.entities;
 
 public class Price {
     private Double price;

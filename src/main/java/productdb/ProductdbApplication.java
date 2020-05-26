@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb;
+package productdb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

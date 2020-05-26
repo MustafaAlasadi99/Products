@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb;
+package productdb;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import edu.csumb.cst438.productdb.entities.Product;
+import productdb.entities.Product;
 
 @RestController
 public class ProductController {

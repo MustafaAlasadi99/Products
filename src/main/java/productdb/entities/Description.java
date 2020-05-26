@@ -1,4 +1,4 @@
-package edu.csumb.cst438.productdb.entities;
+package entities;
 
 public class Description {
 

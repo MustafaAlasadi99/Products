@@ -1,6 +1,5 @@
 
-
-package edu.csumb.cst438.productdb.entities;
+package productdb.entities;
 
 public class Image {
     private String imgurl;
